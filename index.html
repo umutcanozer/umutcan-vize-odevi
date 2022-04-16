@@ -5,8 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        #anakutu1 {
+            display: flex;
+            justify-content: space-between;
+            margin: 25px; 
+            padding: 25px;
+            padding-top: 1px;
+        }
+        #kutu1 {
+            border-style: solid;
+            border-width: 2px;
+            border-color: black;
+            width: fit-content;
+        }
+        #kutu2 {
+            border-style: solid;
+            border-width: 2px;
+            border-color: black;
+            width: fit-content;
+        }
+        #kutu3 {
+            border-style: solid;
+            border-width: 2px;
+            border-color: black;
+            width: fit-content;
+        }
+        #baslik1 {
+            color: brown;
+            text-align: left;
+        }
+
+        #p1 {
+            padding-left: 50px;
+        }
+
+
+
+    </style>
 </head>
 <body>
-    <h1>Merhaba!!</h1>
+    <h1 id="baslik1"> Bootstrap Kütüphane Kurulumu </h1>
+
+    <p id="p1"> Kütüphaneleri kullanabilmemiz için öncellikle bu kütüphaneleri gerekli kaynaktan edinmeliyiz. </p>
+
+    <div id="anakutu1">
+        <div id="kutu1"><img src="fotograf/bootstrapkurulum1.png" style="height: 200px; width: 300px" alt="siteye giriş"> 
+        <p>Öncelikle "https://getbootstrap.com" sitesine girerek "All Releases" kısmından sürümleri görüntüleyiniz.</p></div>
+
+        <div id="kutu2"><img src="fotograf/bootstrapkurulum2.png" style="height: 200px; width: 200px;" alt="sürüm seçimi"> <p>İstediğiniz ya da son sürümü seçiniz.</p></div>
+
+        <div id="kutu3"><p>Bu adımları gerçekleştirdikten sonra karşısınıza gelen sayfada CSS ve JS için gerekli kütüphane kodlarını alınız. <br><br></p>
+            <p>CSS kodunu "head" bölümüne yazacaksınız. <br><br><br> JS için gerekli olan kodu da "Bundle" olan seçeneğini alıp "body" bölümünün sonuna yazacaksınız. <br><br><br> Artık konumuza geçebiliriz.</p>
+        </div>
+    </div>
 </body>
-</html>
