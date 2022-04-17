@@ -1,67 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Glyphicon Kütüphanesi</title>
     <style>
         body {
             background-image: url("fotograf/v1013-p-0024a.jpg");
             background-size: cover;
         }
-        .row{
+
+        .row {
             width: auto;
         }
     </style>
 
 </head>
+
 <body>
     <div class="container container-sm container mt-5">
-        <h1 class="text-center fw-bold"; style="font-variant: small-caps;">glyphicon kütüphanesi konu projesi</h1>
-            
-        
+        <h1 class="text-center fw-bold" ; style="font-variant: small-caps;">glyphicon kütüphanesi konu projesi</h1>
+
+
 
         <div class="row container border border-3 border-primary rounded-3 container mb-2">
             <div class="col">
-                <p class="fw-bold fs-5 pt-3"> Bu projemde size glyphicon kütüphanesinin ne işe yaradığını, nerelerde kullanıldığını göstereceğim. Kodlara buralardan ulaşabilirsiniz: <br><br>  <a href="https://github.com/umutcanozer/umutcan-vize-odevi" class="list-group-item list-group-item-action list-group-item-primary" target="_blank" style="width: fit-content;">PROJE SAYFASI</a> <br> <a href="https://github.com/umutcanozer/umutcan-tanitim" class="list-group-item list-group-item-action list-group-item-primary" target="_blank" style="width: fit-content;" >TANITIM SAYFASI</a></p>
+                <p class="fw-bold fs-4 pt-3"> Bu projemde size glyphicon kütüphanesinin ne işe yaradığını, nerelerde
+                    kullanıldığını göstereceğim. Kodlara buralardan ulaşabilirsiniz: <br><br> <a
+                        href="https://github.com/umutcanozer/umutcan-vize-odevi"
+                        class="list-group-item list-group-item-action list-group-item-primary" target="_blank"
+                        style="width: fit-content;">PROJE SAYFASI</a> <br> <a
+                        href="https://github.com/umutcanozer/umutcan-tanitim"
+                        class="list-group-item list-group-item-action list-group-item-primary" target="_blank"
+                        style="width: fit-content;">TANITIM SAYFASI</a></p>
             </div>
             <div class="col">
-               <p class="fw-bold fs-5 pt-3">Bootstrap ve ikonları kullanabilmek için öncelikle kurulum yapmalıyız. <br> Kurulum oldukça basit, bize gereken 3 referans linki var. <br> <ul style="font-size: large;"><li>Bootstrap CSS</li> <li>Bootstrap JS</li> <li>Bootstrap Glyphicon</li></ul></p>
+                <p class="fw-bold fs-4 pt-3">Bootstrap ve ikonları kullanabilmek için öncelikle kurulum yapmalıyız. <br>
+                    Kurulum oldukça basit, bize gereken 3 referans linki var. <br>
+                    <ul style="font-size: large;">
+                        <li>Bootstrap CSS</li>
+                        <li>Bootstrap JS</li>
+                        <li>Bootstrap Glyphicon</li>
+                    </ul>
+                </p>
             </div>
         </div>
-        
+
 
         <div class="container border border-3 border-primary rounded-3 container mb-2">
             <div class="row">
                 <div class="col text-center">
-                     <img src="fotograf/bootstrapkurulum1.png" alt="giris"  style="height: 300px; width: 500px;">
-                    <p class="fw-bold fs-5 text-center">Öncelikle "https://getbootstrap.com" sitesine girerek "All Releases" kısmından sürümleri görüntüleyiniz. Sıradaki adım için >></p>
+                    <img src="fotograf/bootstrapkurulum1.png" alt="giris" style="height: 300px; width: 500px;">
+                    <p class="fw-bold fs-4 text-center">Öncelikle "https://getbootstrap.com" sitesine girerek "All
+                        Releases" kısmından sürümleri görüntüleyiniz. Sıradaki adım için >></p>
                 </div>
                 <div class="col text-center">
-                    <img src="fotograf/bootstrapkurulum2.png" alt="giris"  style="height: 300px; width: 500px;"> 
-                    <p class="fw-bold fs-5 text-center">Daha sonra buradan son ya da istediğiniz bir sürümü seçiniz. Karşınıza gelecek sayfada CSS ve JS için gerekli kodlar olacak.</p>
-                    
+                    <img src="fotograf/bootstrapkurulum2.png" alt="giris" style="height: 300px; width: 500px;">
+                    <p class="fw-bold fs-4 text-center">Daha sonra buradan son ya da istediğiniz bir sürümü seçiniz.
+                        Karşınıza gelecek sayfada CSS ve JS için gerekli kodlar olacak.</p>
+
                 </div>
             </div>
         </div>
 
         <div class="container border border-3 border-primary rounded-3 container mb-2">
             <div>
-                <h3 class="fw-bold">CSS KODU:</h3><p class="fs-4">CSS için aşağıdaki gerekli kodu "head" bölümüne yazmalısınız.</p>
-                <pre class="fs-5"><code>&lt;</code><code style="color: blue;">link</code> <code style="color:cornflowerblue ;">href=</code><code style="color: orange;">"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"</code> <code style="color: cornflowerblue;">rel=</code><code style="color: orange;">"stylesheet"</code> <code style="color: cornflowerblue;">integrity=</code><code style="color: orange;">"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"</code> <code style="color: cornflowerblue;">crossorigin=</code><code style="color: orange;">"anonymous"</code><code>&gt;</code>
+                <h3 class="fw-bold">CSS KODU:</h3>
+                <p class="fs-3">CSS için aşağıdaki gerekli kodu "head" bölümüne yazmalısınız.</p>
+                <pre class="fs-4"><code>&lt;</code><code style="color: blue;">link</code> <code style="color:cornflowerblue ;">href=</code><code style="color: orange;">"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"</code> <code style="color: cornflowerblue;">rel=</code><code style="color: orange;">"stylesheet"</code> <code style="color: cornflowerblue;">integrity=</code><code style="color: orange;">"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"</code> <code style="color: cornflowerblue;">crossorigin=</code><code style="color: orange;">"anonymous"</code><code>&gt;</code>
                 </pre>
             </div>
             <div>
-                <h3 class="fw-bold";>JS KODU:</h3><p class="fs-4">JS için aşağıdaki gerekli kodu "body" kısmında sona yazmalısınız.</p>
-                <pre class="fs-5"><code>&lt;</code><code style="color: blue;">script</code> <code style="color: cornflowerblue;">src=</code><code style="color: orange;">"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"</code> <code style="color: cornflowerblue;">integrity=</code><code style="color: orange;">"sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"</code> <code style="color: cornflowerblue;">crossorigin=</code><code style="color: orange;">"anonymous"</code><code>&gt;</code><code>&lt;/</code><code style="color: blue;">script</code><code>&gt;</code>
+                <h3 class="fw-bold" ;>JS KODU:</h3>
+                <p class="fs-3">JS için aşağıdaki gerekli kodu "body" kısmında sona yazmalısınız.</p>
+                <pre class="fs-4"><code>&lt;</code><code style="color: blue;">script</code> <code style="color: cornflowerblue;">src=</code><code style="color: orange;">"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"</code> <code style="color: cornflowerblue;">integrity=</code><code style="color: orange;">"sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"</code> <code style="color: cornflowerblue;">crossorigin=</code><code style="color: orange;">"anonymous"</code><code>&gt;</code><code>&lt;/</code><code style="color: blue;">script</code><code>&gt;</code>
                 </pre>
             </div>
             <div>
-                <h3 class="fw-bold">GLYPHICON KODU:</h3><p class="fs-4"> İkon için aşağıdaki gerekli kodu "head" kısmına yazmalısınız.</p>
-                <pre class="fs-5"><code>&lt;</code><code style="color:blue;">link</code> <code style="color: cornflowerblue;">rel=</code><code style="color: orange;">"stylesheet"</code> <code style="color: cornflowerblue;">href=</code><code style="color: orange;">"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"</code><code>&gt;</code>
+                <h3 class="fw-bold">GLYPHICON KODU:</h3>
+                <p class="fs-3"> İkon için aşağıdaki gerekli kodu "head" kısmına yazmalısınız.</p>
+                <pre class="fs-4"><code>&lt;</code><code style="color:blue;">link</code> <code style="color: cornflowerblue;">rel=</code><code style="color: orange;">"stylesheet"</code> <code style="color: cornflowerblue;">href=</code><code style="color: orange;">"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"</code><code>&gt;</code>
                 </pre>
             </div>
         </div>
@@ -69,47 +92,49 @@
         <div class="container border border-3 border-primary rounded-3 container mb-2">
             <div>
                 <h3 class="fw-bold text-center mb-2">GLYPHICON KULLANIMI</h3>
-                <p class="fw-bold fs-5">Glyphicons, 250'den fazla kendi spesifik özellikleriyle gelen tek renkli ikon ve sembollerden oluşmakla birlikte tasarımcısı tarafından Bootstrap için ücretsiz yapılmıştır. Fakat "http://glyphicons.com/" sitesinde ücretli iconlar da vardır.</p>
-                <p class="fw-bold fs-5">Bu kütüphane sayesinde istediğimiz ikonu kendine özel anlamıyla kolayca kullanabiliriz. Örneğin arama simgesi olarak <span style="color:blue;" class="glyphicon glyphicon-search"></span> arama yapılacak kısımda kullanılabilir. Herhangi bir şeyi yenilemek için <span style="color: blue;" class="glyphicon glyphicon-refresh"></span> kullanılabilir.</p>
-                <p class="fw-bold fs-5">Bu semboller bulunduğu elementin font özelliklerine göre boyut, biçim ve renklerini alabilirler. Glyphicon oluşturmak için boş bir span etiketi kullanılır. Bu etikete öncelikle glyphicon sınıfı sonrasında glyphicon simgesini belirleyecek isim yazılır. Bu kodu link, button, panel, tablo, modal, menü gibi elemanlar altında kullanabilirsiniz.</p>
+                <p class="fw-bold fs-4">Glyphicons, 250'den fazla kendi spesifik özellikleriyle gelen tek renkli ikon ve
+                    sembollerden oluşmakla birlikte tasarımcısı tarafından Bootstrap için ücretsiz yapılmıştır. Fakat
+                    "http://glyphicons.com/" sitesinde ücretli iconlar da vardır.</p>
+                <p class="fw-bold fs-4">Bu kütüphane sayesinde istediğimiz ikonu kendine özel anlamıyla kolayca
+                    kullanabiliriz. Örneğin arama simgesi olarak <span style="color:blue;"
+                        class="glyphicon glyphicon-search"></span> arama yapılacak kısımda kullanılabilir. Herhangi bir
+                    şeyi yenilemek için <span style="color: blue;" class="glyphicon glyphicon-refresh"></span>
+                    kullanılabilir.</p>
+                <p class="fw-bold fs-4">Bu semboller bulunduğu elementin font özelliklerine göre boyut, biçim ve
+                    renklerini alabilirler. Glyphicon oluşturmak için boş bir span etiketi kullanılır. Bu etikete
+                    öncelikle glyphicon sınıfı sonrasında glyphicon simgesini belirleyecek isim yazılır. Bu kodu link,
+                    button, panel, tablo, modal, menü gibi elemanlar altında kullanabilirsiniz.</p>
             </div>
             <div class="row">
                 <div class="col">
-                     <pre class="fs-5"><ol><li><code>&lt;</code>span class="glyphicon glyphicon-cloud"<code>&gt;</code></span></li></ol></pre><p class="fw-bold fs-5">SONUÇ: <span class="glyphicon glyphicon-cloud"></span></p>
+                    <pre
+                        class="fs-5"><ol><li><code>&lt;</code>span class="glyphicon glyphicon-cloud"<code>&gt;</code></span></li></ol></pre>
+                    <p class="fw-bold fs-5">SONUÇ: <span class="glyphicon glyphicon-cloud"></span></p>
                 </div>
                 <div class="col">
-                    <pre class="fs-5"><ol><li><code>&lt;</code>a href="#"<code>&gt;</code></li><li>  <code>&lt;</code>span class="glyphicon glyphicon-asterisk"<code>&gt;</code><code>&lt;&gt;</code>/span<code>&gt;</code></li><li><code>&lt;</code>/a<code>&gt;</code></li></ol></pre><p class="fw-bold fs-5">SONUÇ: <a href="#" target="_blank"><span class="glyphicon glyphicon-asterisk"></span></a></p>
+                    <pre
+                        class="fs-5"><ol><li><code>&lt;</code>a href="#"<code>&gt;</code></li><li>  <code>&lt;</code>span class="glyphicon glyphicon-asterisk"<code>&gt;</code><code>&lt;&gt;</code>/span<code>&gt;</code></li><li><code>&lt;</code>/a<code>&gt;</code></li></ol></pre>
+                    <p class="fw-bold fs-5">SONUÇ: <a href="#" target="_blank"><span
+                                class="glyphicon glyphicon-asterisk"></span></a></p>
                 </div>
                 <div class="col">
-                    <pre class="fs-5"><ol><li><code>&lt;</code>button type="button" class="btn btn-info btn-md"<code>&gt;</code></button></li><li>  <code>&lt;</code>span class="glyphicon glyphicon-search"<code>&gt;</code><code>&lt;/span&gt;</code> TIKLAYINIZ</li><li><code>&lt;/button&gt;</code></li></ol></pre><p class="fw-bold fs-5">SONUÇ: <button type="button" class="btn btn-info btn-md">
-                        <span class="glyphicon glyphicon-search"></span> TIKLAYINIZ
-                      </button></p>
+                    <pre
+                        class="fs-5"><ol><li><code>&lt;</code>button type="button" class="btn btn-info btn-md"<code>&gt;</code></button></li><li>  <code>&lt;</code>span class="glyphicon glyphicon-search"<code>&gt;</code><code>&lt;/span&gt;</code> TIKLAYINIZ</li><li><code>&lt;/button&gt;</code></li></ol></pre>
+                    <p class="fw-bold fs-5">SONUÇ: <button type="button" class="btn btn-info btn-md">
+                            <span class="glyphicon glyphicon-search"></span> TIKLAYINIZ
+                        </button></p>
                 </div>
                 <div class="text-center">
-                    <button type="button" class="btn btn-md btn-primary";><a href="https://www.linkedin.com/in/umutcan-özer-a6941b225/" target=_blank; class="btn btn-primary fw-bold fs-5";>GLYPHICON KÜTÜPHANESİNİN İKONLARINI GÖRMEK İÇİN TIKLAYINIZ</a></button>
+                    <button type="button" class="btn btn-md btn-primary" ;><a href="ikonlarr.html" target=_blank;
+                            class="btn btn-primary fw-bold fs-5" ;>GLYPHICON KÜTÜPHANESİNİN İKONLARINI GÖRMEK İÇİN
+                            TIKLAYINIZ</a></button>
                 </div>
             </div>
         </div>
-
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
